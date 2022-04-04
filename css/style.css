@@ -1,0 +1,127 @@
+*{
+   margin:0;
+   padding: 0;
+}
+body {
+
+   background-image:url(../photo/pexels\ \(4\).jpg);
+   
+   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+.navbar ul {
+   list-style-type: none;
+  
+   overflow: hidden;
+   background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+   font-family: sans-serif;
+   font-size: 20px;
+   justify-content: space-between;
+
+ }
+ .navbar li {
+   display: inline;
+   float: left;
+ }
+.navbar ul li a {
+   display: inline-block;
+   text-align: left;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+.title-bar {
+   text-transform: capitalize;
+   text-align: justify;
+   padding: 15px;
+   padding-top: 100px;
+   font-size: revert;
+
+}
+.para-text {
+   text-align:justify;
+   padding: 10px;
+
+   
+}
+img {
+   display: inline-block;
+   height: 350px;
+   width: 650px;
+   padding: 15px;
+   opacity: .4;
+}
+
+      /* this is service section */
+
+
+.service-section {
+   font-size: 50px;
+   text-align: center;
+   background-color: rgb(217, 167, 215);
+}
+.para-service{
+   text-align: center;
+   background-color: rgb(217, 167, 215);
+}
+.grid-single-item{
+   padding: 40px;
+   text-align: center;
+}
+
+.grid-container{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   background-color: rgba(156, 62, 152, .3);
+}
+.custom-icon-size{
+   font-size: 40px;
+   display: block;
+}
+
+.global-title-grid{
+margin: 5px;
+}
+.contact-heading{
+      font-size: 50px;
+      text-align: center;
+
+}
+form {
+   margin-left: 450px;
+}
+form input {
+   width: 350px;
+   height: 25px;
+   border-radius: 5px;
+   margin: 5px;
+}
+form textarea {
+   width: 450px;
+   border-radius: 5px;
+   margin: 5px;
+}
+.buttom-btn {
+   width: 150px;
+   height: 34px;
+   background-color: rgb(219, 75, 75);
+   color: black;
+   font-size: large;
+   font-family: sans-serif;
+   /* padding: 5px; */
+
+}
+   /* this is footer section  */
+
+   footer{
+      background-color: rgb(219, 75, 75);
+      color: black;
+      height: 140px;
+      text-align: center;
+      font-size: 30px;
+      padding-top: 100px;
+
+   }
+ .footer icon-list{
+    padding-top: 10px;
+    justify-content: space-between;
+ }
